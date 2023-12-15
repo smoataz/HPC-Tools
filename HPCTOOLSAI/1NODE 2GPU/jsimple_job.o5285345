@@ -1,0 +1,215 @@
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/lightning_fabric/connector.py:565: `precision=16` is supported for historical reasons but its usage is discouraged. Please set your precision to 16-mixed instead!
+0: Using 16bit Automatic Mixed Precision (AMP)
+0: GPU available: True (cuda), used: True
+0: TPU available: False, using: 0 TPU cores
+0: IPU available: False, using: 0 IPUs
+0: HPU available: False, using: 0 HPUs
+1: Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+0: Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+0: ----------------------------------------------------------------------------------------------------
+0: distributed_backend=nccl
+0: All distributed processes registered. Starting with 2 processes
+0: ----------------------------------------------------------------------------------------------------
+0: 
+0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+1: LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1]
+0: 
+0:    | Name     | Type               | Params
+0: -------------------------------------------------
+0: 0  | fc1      | Linear             | 100 K 
+0: 1  | fc2      | Linear             | 16.5 K
+0: 2  | fc3      | Linear             | 16.5 K
+0: 3  | fc4      | Linear             | 16.5 K
+0: 4  | fc5      | Linear             | 16.5 K
+0: 5  | fc6      | Linear             | 16.5 K
+0: 6  | fc7      | Linear             | 16.5 K
+0: 7  | fc8      | Linear             | 16.5 K
+0: 8  | fc9      | Linear             | 16.5 K
+0: 9  | fc10     | Linear             | 16.5 K
+0: 10 | fc11     | Linear             | 16.5 K
+0: 11 | fc12     | Linear             | 1.3 K 
+0: 12 | loss_fn  | CrossEntropyLoss   | 0     
+0: 13 | accuracy | MulticlassAccuracy | 0     
+0: 14 | f1_score | MulticlassF1Score  | 0     
+0: -------------------------------------------------
+0: 266 K     Trainable params
+0: 0         Non-trainable params
+0: 266 K     Total params
+0: 1.068     Total estimated model params size (MB)
+1: SLURM auto-requeueing enabled. Setting signal handlers.
+0: SLURM auto-requeueing enabled. Setting signal handlers.
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+1: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+1: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: STAGE:2023-12-15 23:24:34 3521240:3521240 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+1: STAGE:2023-12-15 23:24:34 3521241:3521241 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+1: STAGE:2023-12-15 23:24:35 3521241:3521241 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 23:24:35 3521240:3521240 ActivityProfilerController.cpp:317] Completed Stage: Collection
+1: STAGE:2023-12-15 23:24:35 3521241:3521241 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: STAGE:2023-12-15 23:24:35 3521240:3521240 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+1: [W collection.cpp:496] Warning: [pl][profile][LightningModule]NN.optimizer_step (function operator())
+0: [W collection.cpp:496] Warning: [pl][profile][LightningModule]NN.optimizer_step (function operator())
+1: STAGE:2023-12-15 23:24:40 3521241:3521241 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+0: STAGE:2023-12-15 23:24:40 3521240:3521240 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+1: STAGE:2023-12-15 23:24:40 3521241:3521241 ActivityProfilerController.cpp:317] Completed Stage: Collection
+1: STAGE:2023-12-15 23:24:40 3521241:3521241 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: STAGE:2023-12-15 23:24:41 3521240:3521240 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 23:24:41 3521240:3521240 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:433: It is recommended to use `self.log('train_loss', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:433: It is recommended to use `self.log('train_acc', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:433: It is recommended to use `self.log('train_f1', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+0: `Trainer.fit` stopped: `max_epochs=20` reached.
+0: FIT Profiler Report
+0: Profile stats for: records rank: 0
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                                    Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                           ProfilerStep*        14.45%      11.437ms        99.97%      79.129ms       3.956ms       0.000us         0.00%       7.711ms     385.550us            20  
+0:      [pl][profile][Strategy]DDPStrategy.validation_step         2.04%       1.614ms        57.31%      45.360ms       2.268ms       0.000us         0.00%       7.425ms     371.250us            20  
+0:                         DistributedDataParallel.forward        12.90%      10.212ms        55.27%      43.746ms       2.187ms       0.000us         0.00%       7.425ms     371.250us            20  
+0:                                            aten::linear         2.72%       2.155ms        38.29%      30.303ms      63.131us       0.000us         0.00%       7.542ms      15.713us           480  
+0:                 [pl][profile][_EvaluationLoop].val_next         0.70%     556.000us        15.74%      12.459ms     622.950us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                                aten::to         1.44%       1.138ms        15.25%      12.073ms      19.473us       0.000us         0.00%       3.515ms       5.669us           620  
+0: enumerate(DataLoader)#_MultiProcessingDataLoaderIter...        14.69%      11.627ms        15.04%      11.903ms     595.150us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                          aten::_to_copy         2.56%       2.026ms        14.57%      11.533ms      20.595us       0.000us         0.00%       3.741ms       6.680us           560  
+0:                                             aten::addmm         7.36%       5.829ms         9.96%       7.886ms      32.858us       2.180ms        28.27%       2.180ms       9.083us           240  
+0:                                             aten::copy_         4.10%       3.247ms         9.25%       7.319ms      12.619us       3.864ms        50.11%       3.864ms       6.662us           580  
+0:                                        cudaLaunchKernel         6.97%       5.520ms         6.97%       5.520ms       5.018us       0.000us         0.00%       0.000us       0.000us          1100  
+0:      [pl][profile][Strategy]DDPStrategy.batch_to_device         2.09%       1.654ms         6.02%       4.763ms     238.150us       0.000us         0.00%     286.000us      14.300us            20  
+0:                                              aten::relu         1.00%     788.000us         4.96%       3.923ms      17.832us       0.000us         0.00%       1.107ms       5.032us           220  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc1         0.67%     528.000us         4.69%       3.714ms     185.700us       0.000us         0.00%     837.000us      41.850us            20  
+0:                                         aten::clamp_min         2.56%       2.028ms         3.96%       3.135ms      14.250us       1.107ms        14.36%       1.107ms       5.032us           220  
+0: [pl][profile][Callback]TQDMProgressBar.on_validation...         3.80%       3.005ms         3.80%       3.005ms     150.250us       0.000us         0.00%       0.000us       0.000us            20  
+0: [pl][profile][LightningModule]NN.transfer_batch_to_d...         1.00%     792.000us         3.67%       2.905ms     145.250us       0.000us         0.00%     286.000us      14.300us            20  
+0:                                     aten::empty_strided         3.39%       2.680ms         3.39%       2.680ms       4.621us       0.000us         0.00%       0.000us       0.000us           580  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc2         0.44%     345.000us         2.86%       2.261ms     113.050us       0.000us         0.00%     460.000us      23.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc3         0.55%     433.000us         2.62%       2.072ms     103.600us       0.000us         0.00%     420.000us      21.000us            20  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0: Self CPU time total: 79.150ms
+0: Self CUDA time total: 7.711ms
+0: 
+0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+1: LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1]
+1: SLURM auto-requeueing enabled. Setting signal handlers.
+0: SLURM auto-requeueing enabled. Setting signal handlers.
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:232: Using `DistributedSampler` with the dataloaders. During `trainer.validate()`, it is recommended to use `Trainer(devices=1, num_nodes=1)` to ensure each sample/batch gets evaluated exactly once. Otherwise, multi-device settings use `DistributedSampler` that replicates some samples to make sure all devices have same batch size in case of uneven inputs.
+1: STAGE:2023-12-15 23:26:07 3521241:3521241 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+0: STAGE:2023-12-15 23:26:07 3521240:3521240 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+1: STAGE:2023-12-15 23:26:07 3521241:3521241 ActivityProfilerController.cpp:317] Completed Stage: Collection
+1: STAGE:2023-12-15 23:26:07 3521241:3521241 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: STAGE:2023-12-15 23:26:07 3521240:3521240 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 23:26:07 3521240:3521240 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: VALIDATE Profiler Report
+0: Profile stats for: records rank: 0
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                                    Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                           ProfilerStep*        15.00%      11.457ms        99.98%      76.340ms       3.817ms       0.000us         0.00%       7.718ms     385.900us            20  
+0:      [pl][profile][Strategy]DDPStrategy.validation_step        13.39%      10.225ms        57.39%      43.822ms       2.191ms       0.000us         0.00%       7.427ms     371.350us            20  
+0:                                            aten::linear         2.44%       1.866ms        40.37%      30.824ms      64.217us       0.000us         0.00%       7.534ms      15.696us           480  
+0:                                                aten::to         1.64%       1.249ms        16.15%      12.328ms      20.013us       0.000us         0.00%       3.449ms       5.599us           616  
+0:                                          aten::_to_copy         2.53%       1.932ms        15.28%      11.666ms      20.832us       0.000us         0.00%       3.640ms       6.500us           560  
+0:                 [pl][profile][_EvaluationLoop].val_next         0.68%     519.000us        14.73%      11.245ms     562.250us       0.000us         0.00%       0.000us       0.000us            20  
+0: enumerate(DataLoader)#_MultiProcessingDataLoaderIter...        13.93%      10.635ms        14.05%      10.726ms     536.300us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                             aten::addmm         7.73%       5.900ms        10.85%       8.284ms      34.517us       2.183ms        28.28%       2.183ms       9.096us           240  
+0:                                             aten::copy_         4.45%       3.395ms         9.98%       7.618ms      13.134us       3.851ms        49.90%       3.851ms       6.640us           580  
+0:                                        cudaLaunchKernel         7.37%       5.627ms         7.37%       5.627ms       5.115us       0.000us         0.00%       0.000us       0.000us          1100  
+0:      [pl][profile][Strategy]DDPStrategy.batch_to_device         2.14%       1.636ms         6.29%       4.805ms     240.250us       0.000us         0.00%     291.000us      14.550us            20  
+0:                                              aten::relu         0.87%     668.000us         4.96%       3.790ms      17.227us       0.000us         0.00%       1.107ms       5.032us           220  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc1         0.65%     498.000us         4.71%       3.599ms     179.950us       0.000us         0.00%     840.000us      42.000us            20  
+0:                                         aten::clamp_min         2.65%       2.027ms         4.09%       3.122ms      14.191us       1.107ms        14.34%       1.107ms       5.032us           220  
+0: [pl][profile][LightningModule]NN.transfer_batch_to_d...         1.22%     930.000us         3.84%       2.935ms     146.750us       0.000us         0.00%     291.000us      14.550us            20  
+0: [pl][profile][Callback]TQDMProgressBar.on_validation...         3.65%       2.785ms         3.65%       2.785ms     139.250us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                     aten::empty_strided         3.59%       2.745ms         3.59%       2.745ms       4.733us       0.000us         0.00%       0.000us       0.000us           580  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc2         0.62%     476.000us         2.94%       2.248ms     112.400us       0.000us         0.00%     460.000us      23.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc3         0.59%     453.000us         2.85%       2.177ms     108.850us       0.000us         0.00%     406.000us      20.300us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc5         0.56%     426.000us         2.71%       2.068ms     103.400us       0.000us         0.00%     416.000us      20.800us            20  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0: Self CPU time total: 76.357ms
+0: Self CUDA time total: 7.718ms
+0: 
+0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1]
+1: LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1]
+1: SLURM auto-requeueing enabled. Setting signal handlers.
+0: SLURM auto-requeueing enabled. Setting signal handlers.
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/data_connector.py:232: Using `DistributedSampler` with the dataloaders. During `trainer.test()`, it is recommended to use `Trainer(devices=1, num_nodes=1)` to ensure each sample/batch gets evaluated exactly once. Otherwise, multi-device settings use `DistributedSampler` that replicates some samples to make sure all devices have same batch size in case of uneven inputs.
+0: STAGE:2023-12-15 23:26:08 3521240:3521240 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+1: STAGE:2023-12-15 23:26:08 3521241:3521241 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+1: STAGE:2023-12-15 23:26:08 3521241:3521241 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 23:26:08 3521240:3521240 ActivityProfilerController.cpp:317] Completed Stage: Collection
+1: STAGE:2023-12-15 23:26:08 3521241:3521241 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: STAGE:2023-12-15 23:26:08 3521240:3521240 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: TEST Profiler Report
+0: Profile stats for: records rank: 0
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                                    Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                           ProfilerStep*        15.00%      11.936ms        99.98%      79.553ms       3.978ms       0.000us         0.00%       7.717ms     385.850us            20  
+0:            [pl][profile][Strategy]DDPStrategy.test_step        13.68%      10.887ms        57.52%      45.772ms       2.289ms       0.000us         0.00%       7.427ms     371.350us            20  
+0:                                            aten::linear         2.86%       2.272ms        40.68%      32.372ms      67.442us       0.000us         0.00%       7.498ms      15.621us           480  
+0:                                                aten::to         1.66%       1.318ms        15.73%      12.520ms      20.194us       0.000us         0.00%       3.453ms       5.569us           620  
+0:                [pl][profile][_EvaluationLoop].test_next         0.80%     640.000us        15.46%      12.301ms     615.050us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                          aten::_to_copy         2.77%       2.204ms        14.84%      11.805ms      21.080us       0.000us         0.00%       3.684ms       6.579us           560  
+0: enumerate(DataLoader)#_MultiProcessingDataLoaderIter...        14.51%      11.545ms        14.65%      11.661ms     583.050us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                             aten::addmm         7.82%       6.219ms        10.70%       8.514ms      35.475us       2.181ms        28.26%       2.181ms       9.088us           240  
+0:                                             aten::copy_         4.27%       3.394ms         9.52%       7.576ms      13.062us       3.861ms        50.03%       3.861ms       6.657us           580  
+0:                                        cudaLaunchKernel         7.28%       5.793ms         7.28%       5.793ms       5.266us       0.000us         0.00%       0.000us       0.000us          1100  
+0:      [pl][profile][Strategy]DDPStrategy.batch_to_device         2.05%       1.631ms         5.88%       4.679ms     233.950us       0.000us         0.00%     290.000us      14.500us            20  
+0:                                              aten::relu         0.89%     707.000us         4.86%       3.864ms      17.564us       0.000us         0.00%       1.100ms       5.000us           220  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc1         0.66%     525.000us         4.81%       3.829ms     191.450us       0.000us         0.00%     840.000us      42.000us            20  
+0:                                         aten::clamp_min         2.58%       2.053ms         3.97%       3.157ms      14.350us       1.100ms        14.25%       1.100ms       5.000us           220  
+0: [pl][profile][LightningModule]NN.transfer_batch_to_d...         1.22%     971.000us         3.55%       2.826ms     141.300us       0.000us         0.00%     290.000us      14.500us            20  
+0:                                     aten::empty_strided         3.36%       2.670ms         3.36%       2.670ms       4.603us       0.000us         0.00%       0.000us       0.000us           580  
+0: [pl][profile][Callback]TQDMProgressBar.on_test_batch...         3.30%       2.623ms         3.30%       2.623ms     131.150us       0.000us         0.00%       0.000us       0.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc2         0.56%     445.000us         3.10%       2.470ms     123.500us       0.000us         0.00%     460.000us      23.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc6         0.49%     390.000us         2.76%       2.197ms     109.850us       0.000us         0.00%     422.000us      21.100us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc3         0.42%     334.000us         2.69%       2.137ms     106.850us       0.000us         0.00%     406.000us      20.300us            20  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0: Self CPU time total: 79.572ms
+0: Self CUDA time total: 7.717ms
+0: 

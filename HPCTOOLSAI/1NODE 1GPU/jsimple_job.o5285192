@@ -1,0 +1,169 @@
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/lightning_fabric/connector.py:565: `precision=16` is supported for historical reasons but its usage is discouraged. Please set your precision to 16-mixed instead!
+0: Using 16bit Automatic Mixed Precision (AMP)
+0: GPU available: True (cuda), used: True
+0: TPU available: False, using: 0 TPU cores
+0: IPU available: False, using: 0 IPUs
+0: HPU available: False, using: 0 HPUs
+0: Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+0: ----------------------------------------------------------------------------------------------------
+0: distributed_backend=nccl
+0: All distributed processes registered. Starting with 1 processes
+0: ----------------------------------------------------------------------------------------------------
+0: 
+0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+0: 
+0:    | Name     | Type               | Params
+0: -------------------------------------------------
+0: 0  | fc1      | Linear             | 100 K 
+0: 1  | fc2      | Linear             | 16.5 K
+0: 2  | fc3      | Linear             | 16.5 K
+0: 3  | fc4      | Linear             | 16.5 K
+0: 4  | fc5      | Linear             | 16.5 K
+0: 5  | fc6      | Linear             | 16.5 K
+0: 6  | fc7      | Linear             | 16.5 K
+0: 7  | fc8      | Linear             | 16.5 K
+0: 8  | fc9      | Linear             | 16.5 K
+0: 9  | fc10     | Linear             | 16.5 K
+0: 10 | fc11     | Linear             | 16.5 K
+0: 11 | fc12     | Linear             | 1.3 K 
+0: 12 | loss_fn  | CrossEntropyLoss   | 0     
+0: 13 | accuracy | MulticlassAccuracy | 0     
+0: 14 | f1_score | MulticlassF1Score  | 0     
+0: -------------------------------------------------
+0: 266 K     Trainable params
+0: 0         Non-trainable params
+0: 266 K     Total params
+0: 1.068     Total estimated model params size (MB)
+0: SLURM auto-requeueing enabled. Setting signal handlers.
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: [W kineto_shim.cpp:343] Profiler is not initialized: skipping step() invocation
+0: [W kineto_shim.cpp:330] Profiler is not initialized: skipping profiling metadata
+0: STAGE:2023-12-15 22:54:42 3921706:3921706 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+0: STAGE:2023-12-15 22:54:42 3921706:3921706 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 22:54:42 3921706:3921706 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: [W collection.cpp:496] Warning: [pl][profile][LightningModule]NN.optimizer_step (function operator())
+0: STAGE:2023-12-15 22:54:52 3921706:3921706 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+0: STAGE:2023-12-15 22:54:52 3921706:3921706 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 22:54:52 3921706:3921706 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:433: It is recommended to use `self.log('train_loss', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:433: It is recommended to use `self.log('train_acc', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+0: /mnt/netapp2/Store_uni/home/ulc/cursos/curso386/mytorchdist/lib/python3.9/site-packages/pytorch_lightning/trainer/connectors/logger_connector/result.py:433: It is recommended to use `self.log('train_f1', ..., sync_dist=True)` when logging on epoch level in distributed setting to accumulate the metric across devices.
+0: `Trainer.fit` stopped: `max_epochs=20` reached.
+0: FIT Profiler Report
+0: Profile stats for: records
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                                    Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                           ProfilerStep*        14.54%      11.162ms        99.98%      76.734ms       3.837ms       0.000us         0.00%       7.906ms     395.300us            20  
+0:      [pl][profile][Strategy]DDPStrategy.validation_step         2.03%       1.559ms        57.15%      43.866ms       2.193ms       0.000us         0.00%       7.606ms     380.300us            20  
+0:                         DistributedDataParallel.forward        12.93%       9.924ms        55.12%      42.307ms       2.115ms       0.000us         0.00%       7.606ms     380.300us            20  
+0:                                            aten::linear         2.57%       1.970ms        38.19%      29.315ms      61.073us       0.000us         0.00%       7.770ms      16.188us           480  
+0:                 [pl][profile][_EvaluationLoop].val_next         0.71%     548.000us        15.91%      12.212ms     610.600us       0.000us         0.00%       0.000us       0.000us            20  
+0: enumerate(DataLoader)#_MultiProcessingDataLoaderIter...        14.84%      11.389ms        15.20%      11.664ms     583.200us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                                aten::to         1.14%     874.000us        14.99%      11.502ms      18.552us       0.000us         0.00%       3.754ms       6.055us           620  
+0:                                          aten::_to_copy         2.61%       2.000ms        14.27%      10.955ms      19.562us       0.000us         0.00%       3.908ms       6.979us           560  
+0:                                             aten::addmm         7.45%       5.715ms        10.03%       7.700ms      32.083us       2.183ms        27.61%       2.183ms       9.096us           240  
+0:                                             aten::copy_         4.13%       3.168ms         9.12%       6.999ms      12.067us       4.055ms        51.29%       4.055ms       6.991us           580  
+0:                                        cudaLaunchKernel         6.86%       5.262ms         6.86%       5.262ms       4.784us       0.000us         0.00%       0.000us       0.000us          1100  
+0:      [pl][profile][Strategy]DDPStrategy.batch_to_device         2.11%       1.620ms         5.99%       4.596ms     229.800us       0.000us         0.00%     300.000us      15.000us            20  
+0:                                              aten::relu         0.97%     743.000us         4.88%       3.749ms      17.041us       0.000us         0.00%       1.107ms       5.032us           220  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc1         0.70%     536.000us         4.72%       3.622ms     181.100us       0.000us         0.00%     841.000us      42.050us            20  
+0:                                         aten::clamp_min         2.53%       1.941ms         3.92%       3.006ms      13.664us       1.107ms        14.00%       1.107ms       5.032us           220  
+0: [pl][profile][Callback]TQDMProgressBar.on_validation...         3.73%       2.860ms         3.73%       2.860ms     143.000us       0.000us         0.00%       0.000us       0.000us            20  
+0: [pl][profile][LightningModule]NN.transfer_batch_to_d...         1.18%     909.000us         3.61%       2.769ms     138.450us       0.000us         0.00%     300.000us      15.000us            20  
+0:                                     aten::empty_strided         3.22%       2.471ms         3.22%       2.471ms       4.260us       0.000us         0.00%       0.000us       0.000us           580  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc2         0.61%     467.000us         2.88%       2.209ms     110.450us       0.000us         0.00%     461.000us      23.050us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc3         0.49%     375.000us         2.61%       2.002ms     100.100us       0.000us         0.00%     429.000us      21.450us            20  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0: Self CPU time total: 76.753ms
+0: Self CUDA time total: 7.906ms
+0: 
+0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+0: SLURM auto-requeueing enabled. Setting signal handlers.
+0: STAGE:2023-12-15 22:57:32 3921706:3921706 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+0: STAGE:2023-12-15 22:57:32 3921706:3921706 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 22:57:32 3921706:3921706 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: VALIDATE Profiler Report
+0: Profile stats for: records
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                                    Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                           ProfilerStep*        15.08%      11.438ms        99.97%      75.844ms       3.792ms       0.000us         0.00%       7.867ms     393.350us            20  
+0:      [pl][profile][Strategy]DDPStrategy.validation_step        13.27%      10.070ms        57.30%      43.471ms       2.174ms       0.000us         0.00%       7.567ms     378.350us            20  
+0:                                            aten::linear         2.45%       1.861ms        40.10%      30.426ms      63.388us       0.000us         0.00%       7.679ms      15.998us           480  
+0:                                                aten::to         1.73%       1.311ms        16.01%      12.149ms      19.722us       0.000us         0.00%       3.603ms       5.849us           616  
+0:                                          aten::_to_copy         2.57%       1.953ms        15.10%      11.456ms      20.457us       0.000us         0.00%       3.842ms       6.861us           560  
+0:                 [pl][profile][_EvaluationLoop].val_next         0.81%     618.000us        14.51%      11.011ms     550.550us       0.000us         0.00%       0.000us       0.000us            20  
+0: enumerate(DataLoader)#_MultiProcessingDataLoaderIter...        13.54%      10.275ms        13.70%      10.393ms     519.650us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                             aten::addmm         7.61%       5.774ms        10.68%       8.100ms      33.750us       2.187ms        27.80%       2.187ms       9.113us           240  
+0:                                             aten::copy_         4.37%       3.313ms         9.79%       7.426ms      12.803us       4.013ms        51.01%       4.013ms       6.919us           580  
+0:                                        cudaLaunchKernel         7.26%       5.511ms         7.26%       5.511ms       5.010us       0.000us         0.00%       0.000us       0.000us          1100  
+0:      [pl][profile][Strategy]DDPStrategy.batch_to_device         2.16%       1.641ms         6.44%       4.888ms     244.400us       0.000us         0.00%     300.000us      15.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc1         0.70%     530.000us         4.87%       3.698ms     184.900us       0.000us         0.00%     835.000us      41.750us            20  
+0:                                              aten::relu         0.88%     665.000us         4.87%       3.692ms      16.782us       0.000us         0.00%       1.106ms       5.027us           220  
+0:                                         aten::clamp_min         2.54%       1.930ms         3.99%       3.027ms      13.759us       1.106ms        14.06%       1.106ms       5.027us           220  
+0: [pl][profile][LightningModule]NN.transfer_batch_to_d...         1.30%     988.000us         3.96%       3.007ms     150.350us       0.000us         0.00%     300.000us      15.000us            20  
+0: [pl][profile][Callback]TQDMProgressBar.on_validation...         3.70%       2.807ms         3.70%       2.807ms     140.350us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                     aten::empty_strided         3.50%       2.658ms         3.50%       2.658ms       4.583us       0.000us         0.00%       0.000us       0.000us           580  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc2         0.63%     478.000us         2.93%       2.220ms     111.000us       0.000us         0.00%     460.000us      23.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc3         0.62%     469.000us         2.72%       2.067ms     103.350us       0.000us         0.00%     422.000us      21.100us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc7         0.54%     410.000us         2.72%       2.060ms     103.000us       0.000us         0.00%     437.000us      21.850us            20  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0: Self CPU time total: 75.866ms
+0: Self CUDA time total: 7.867ms
+0: 
+0: LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+0: SLURM auto-requeueing enabled. Setting signal handlers.
+0: STAGE:2023-12-15 22:57:34 3921706:3921706 ActivityProfilerController.cpp:311] Completed Stage: Warm Up
+0: STAGE:2023-12-15 22:57:34 3921706:3921706 ActivityProfilerController.cpp:317] Completed Stage: Collection
+0: STAGE:2023-12-15 22:57:34 3921706:3921706 ActivityProfilerController.cpp:321] Completed Stage: Post Processing
+0: TEST Profiler Report
+0: Profile stats for: records
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                                    Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg    # of Calls  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0:                                           ProfilerStep*        14.76%      11.567ms        99.97%      78.333ms       3.917ms       0.000us         0.00%       7.849ms     392.450us            20  
+0:            [pl][profile][Strategy]DDPStrategy.test_step        13.48%      10.560ms        57.52%      45.071ms       2.254ms       0.000us         0.00%       7.549ms     377.450us            20  
+0:                                            aten::linear         2.76%       2.161ms        40.83%      31.995ms      66.656us       0.000us         0.00%       7.654ms      15.946us           480  
+0:                                                aten::to         1.83%       1.432ms        15.77%      12.355ms      19.992us       0.000us         0.00%       3.586ms       5.803us           618  
+0:                [pl][profile][_EvaluationLoop].test_next         0.87%     684.000us        15.16%      11.878ms     593.900us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                          aten::_to_copy         2.71%       2.120ms        14.88%      11.661ms      20.823us       0.000us         0.00%       3.857ms       6.888us           560  
+0: enumerate(DataLoader)#_MultiProcessingDataLoaderIter...        14.12%      11.066ms        14.29%      11.194ms     559.700us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                             aten::addmm         7.76%       6.080ms        10.78%       8.445ms      35.188us       2.182ms        27.80%       2.182ms       9.092us           240  
+0:                                             aten::copy_         4.28%       3.356ms         9.56%       7.494ms      12.921us       4.000ms        50.96%       4.000ms       6.897us           580  
+0:                                        cudaLaunchKernel         7.36%       5.770ms         7.36%       5.770ms       5.245us       0.000us         0.00%       0.000us       0.000us          1100  
+0:      [pl][profile][Strategy]DDPStrategy.batch_to_device         2.11%       1.654ms         6.24%       4.891ms     244.550us       0.000us         0.00%     300.000us      15.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc1         0.69%     539.000us         4.91%       3.845ms     192.250us       0.000us         0.00%     832.000us      41.600us            20  
+0:                                              aten::relu         0.88%     686.000us         4.70%       3.686ms      16.755us       0.000us         0.00%       1.106ms       5.027us           220  
+0:                                         aten::clamp_min         2.45%       1.917ms         3.83%       3.000ms      13.636us       1.106ms        14.09%       1.106ms       5.027us           220  
+0: [pl][profile][LightningModule]NN.transfer_batch_to_d...         1.09%     852.000us         3.81%       2.982ms     149.100us       0.000us         0.00%     300.000us      15.000us            20  
+0: [pl][profile][Callback]TQDMProgressBar.on_test_batch...         3.45%       2.707ms         3.45%       2.707ms     135.350us       0.000us         0.00%       0.000us       0.000us            20  
+0:                                     aten::empty_strided         3.29%       2.574ms         3.29%       2.574ms       4.438us       0.000us         0.00%       0.000us       0.000us           580  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc2         0.61%     478.000us         3.09%       2.419ms     120.950us       0.000us         0.00%     460.000us      23.000us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc4         0.47%     369.000us         2.81%       2.199ms     109.950us       0.000us         0.00%     423.000us      21.150us            20  
+0:         [pl][module]torch.nn.modules.linear.Linear: fc3         0.55%     428.000us         2.75%       2.158ms     107.900us       0.000us         0.00%     422.000us      21.100us            20  
+0: -------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  
+0: Self CPU time total: 78.353ms
+0: Self CUDA time total: 7.849ms
+0: 
